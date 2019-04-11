@@ -1,14 +1,14 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'MOBILE' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
+export type TrackId = 'Onboarding & Offboarding' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'MOBILE': Milestone,
+  'Onboarding & Offboarding': Milestone,
   'WEB_CLIENT': Milestone,
   'FOUNDATIONS': Milestone,
   'SERVERS': Milestone,
@@ -71,7 +71,7 @@ export type Track = {
 }
 
 type Tracks = {|
-  'MOBILE': Track,
+  'Onboarding & Offboarding': Track,
   'WEB_CLIENT': Track,
   'FOUNDATIONS': Track,
   'SERVERS': Track,
@@ -90,69 +90,59 @@ type Tracks = {|
 |}
 
 export const tracks: Tracks = {
-  "MOBILE": {
-    "displayName": "Mobile",
+  "Onboarding & Offboarding": {
+    "displayName": "Onboarding & Offboarding",
     "category": "A",
-    "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
+    "description": "the process of integrating new employees into the organization and its culture and then, separating them on their last day of employment",
     "milestones": [{
-      "summary": "Works effectively within established iOS or Android architectures, following current best practices",
+      "summary": "HR Onboarding & Offboarding best practices and procedures are understood correctly",
       "signals": [
-        "Delivers features requiring simple local modifications",
-        "Adds simple actions that call server endpoints",
-        "Reuses existing components appropriately",
+        "Detail-oriented",
+        "Desire to want to learn new things",
+        "Curious and open-minded",
       ],
       "examples": [
-        "Added existing button to a different iOS surface",
-        "Add follow button for publications on Android",
-        "Fetched and displayed a new stream, using existing stream item styles",
+        "Creates presentation slides that outline the company’s values, culture, benefits, and policies without any errors",
       ],
     }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
+      "summary": "HR Onboarding & Offboarding best practices and procedures are executives without errors",
       "signals": [
-        "Defines new useful and appropriate proto-generated objects",
-        "Creates simple new activities on Android",
-        "Migrates code from old patterns to new patterns",
+        "Strong communication link between employees and HR",
+        "Approachable and caring of the employees’ needs and concerns",
+        "Always willing to help and guide people in the right direction",
       ],
       "examples": [
-        "Upgraded SDWebImage to a new major version",
-        "Added support for rendering a new type of stream item",
-        "Prototyped a simple new feature quickly",
+        "Making sure proper onboarding and offboarding processes are in place.",
+        "Is capable of presenting the company’s values, culture, benefits, and policies to new employees without any mistakes and is able to answer any questions that may arise",
+        "Ensure a seamless employee experience (Setup of workstation & materials, access to all HR systems",
       ],
     }, {
-      "summary": "Designs major new features and demonstrates a nuanced understanding of mobile platform constraints",
+      "summary": "Execution of HR practices & specific projects while having employee and team satisfaction in mind",
       "signals": [
-        "Implements complex features with a large product surface area",
-        "Works effectively with  Android reactive programming framework",
-        "Adds support for new iOS features after a major iOS version upgrade",
+        "Is the “Go to person” for general HR related questions for employees",
       ],
       "examples": [
-        "Designed iOS caching strategy for offline reading",
-        "Built series reader on Android",
-        "Informed the team about recent best practice changes and deprecations",
+        "Acting as support for the HR team in day to day practices; ",
+        "helps to create diverse HR documentation/slides",
+        "Updating employees on changes and policies & maintaining documentation ",
       ],
     }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively",
+      "summary": "Develops new HR onboarding/offboarding practices, or minor improvements to existing ones",
       "signals": [
-        "Pioneers architecture migration strategies that reduce programmer burden",
-        "Fixes subtle memory management issues",
-        "Implements interactive dismissals that bring delight",
+        "Curious & Open-minded: researches new, competitive initiatives and ideas to enhance employee experience ",
       ],
       "examples": [
-        "Upgraded CocoaPods to a new major version",
-        "Designed architecture for fetching and rendering stream items",
-        "Migrated Android persistance layer to reactive programming",
+        "Implements new tools and tasks to maximize efficiency and effectiveness on the onboarding/offboarding processes",
+        "Informs the HR team about recent best practices updates and what new initiatives will be put in place"
       ],
     }, {
-      "summary": "Is an industry-leading expert in mobile engineering or sets strategic mobile direction for an eng team",
+      "summary": "Is a leading expert in the onboarding & offboarding experience and sets strategic HR directions for the team",
       "signals": [
-        "Defines long-term goals and ensures active projects are in service of them",
-        "Designs and builds innovative, industry-leading UI interactions",
-        "Invents new techniques to responsibly stretch limits of the Android platform",
+        "Defines long-term goals and ensures active participation of employees are put in place",
       ],
       "examples": [
-        "Defined and drove complete migration plan to Swift or Kotlin",
-        "Implemented Android recycler views before platform support existed",
-        "Pioneered application-level abstractions for multi-app environment",
+        "Designs and develops innovative, HR processes that are competitive and reflect the company's values & culture",
+        "Invents new techniques to enhance employee experience, while implementing best practices",
       ],
     }],
   },
