@@ -1,7 +1,7 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'Onboarding & Offboarding' | 'WEB_CLIENT' | 'FOUNDATIONS' | 'SERVERS' |
+export type TrackId = 'Onboarding & Offboarding' | 'Recruitment & Selection' | 'FOUNDATIONS' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
@@ -9,7 +9,7 @@ export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
   'Onboarding & Offboarding': Milestone,
-  'WEB_CLIENT': Milestone,
+  'Recruitment & Selection': Milestone,
   'FOUNDATIONS': Milestone,
   'SERVERS': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
@@ -72,7 +72,7 @@ export type Track = {
 
 type Tracks = {|
   'Onboarding & Offboarding': Track,
-  'WEB_CLIENT': Track,
+  'Recruitment & Selection': Track,
   'FOUNDATIONS': Track,
   'SERVERS': Track,
   'PROJECT_MANAGEMENT': Track,
@@ -147,69 +147,66 @@ export const tracks: Tracks = {
     }],
   },
 
-  "WEB_CLIENT": {
-    "displayName": "Web client",
+  "Recruitment & Selection": {
+    "displayName": "Recruitment & Selection",
     "category": "A",
-    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
+    "description": "Attracts, shortlists, selects and hires suitable candidates for jobs (either permanent or temporary) within Dialogue.",
     "milestones": [{
-      "summary": "Works effectively within established web client architectures, following current best practices",
+      "summary": "Interacts with potential candidates and brings them into the pipeline while assessing their knowledge, skills, and abilities for the role based on their profile",
       "signals": [
-        "Makes minor modifications to existing screens",
-        "Fixes simple design quality issues",
-        "Uses CSS appropriately, following style guide",
+        "Reviews existing network of candidates on a regular basis",
+        "Shadows interviews to gain familiarity with recruitment process",
+        "Reviews and adjusts current job postings regularly",
       ],
       "examples": [
-        "Implemented sticky footer on the post page",
-        "Hooked up the action to dismiss a post from a stream",
-        "Built PaymentHistory screen using ResponseScreen",
+        "Entered and tracked candidate information in Dialogue's internal recruitment tracking system.",
+        "Drafted up and posted detailed job descriptions on Dialogue's website",
+        "Used social and professional networking sites to identify and source candidates",
       ],
     }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
+      "summary": "Leads the screening interview process, while helping to make strategic hiring decisions",
       "signals": [
-        "Makes sensible abstractions based on template and code patterns",
-        "Specs and builds interactive components independently",
-        "Prototypes simple new features quickly",
+        "Follows the interview guidelines to provide feedback on candidates",
+        "Respectful towards candidates, pays attention to detail and answers their questions clearly",
+        "Encourages new approaches for sourcing candidates and diversifying hiring",
       ],
       "examples": [
-        "Built credit card input component",
-        "Created shared buttons template",
-        "Built modal system",
+        "Worked with HR and Hiring Managers to do recruitment needs analysis",
+        "Responsible for scheduling phone and/or on-site interviews.",
+        "Participate in job fairs and recruiting events that help to find new talent",
       ],
     }, {
-      "summary": "Designs major new features and demonstrates a nuanced understanding of browser constraints",
+      "summary": "Solidifies recruitment processes while finding strong candidates for various roles",
       "signals": [
-        "Provides useful design feedback and suggests feasible alternatives",
-        "Performs systemic tasks to significantly minimise bundle size",
-        "Acts a caretaker for all of web client code",
+        "Understands what knowledge, skills, and abilities are required for specific roles and can identify when a candidate has potential for the job",
+        "Capable of teaching new recruiters how to effectively source and interview candidates",
+        "Demonstrated superior communication skills and provides constructive feedback to new talent specialists",
       ],
       "examples": [
-        "Designed font loading strategy for Medium",
-        "Researched utility of service workers for Medium",
-        "Designed and implemented ResponseScreen",
+        "Implemented strategies for identifying and attracting passive and active candidates",
+        "Integrated new techniques that help to improve the interview process such as new interview questions",
+        "Attracts strong candidates into the pipeline with high conversion rates",
       ],
     }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices and enable engineers to work more effectively",
+      "summary": "Responsible for full cycle recruitment, selection process and applicant tracking in accordance with company procedures.",
       "signals": [
-        "Pioneers architecture migrations that reduce programmer burden",
-        "Implements complex UI transitions that bring delight",
-        "Makes architectural decisions that eliminate entire classes of bugs",
+        "Ability to align the right candidates with the company’s values, mission, and culture",
+        "Ability to leads hiring decisions and resolves conflicting reports",
       ],
       "examples": [
-        "Designed Medium's post morpher and delta system",
-        "Implemented Medium's scrolling text over image blur",
-        "Designed and pioneered proto-based model storage",
+        "Effectively established Dialogue’s interview processes and the training required for each phase",
+        "Organized and led Dialogue’s presentation at recruitment fairs and events",
       ],
     }, {
-      "summary": "Is an industry-leading expert in web client or sets strategic web client direction for an eng team",
+      "summary": "Establishes all recruitment strategies, invests in long-term relationships for critical roles, and drives the recruitment function",
       "signals": [
-        "Invents new techniques to innovate and overcome browser constraints",
-        "Identifies and solved systemic problems with current architecture",
-        "Defines a long-term vision for web client and ensures projects are in service of it",
+        "Forms policies and goals around creating diverse, top performing teams",
+        "Identifies and brings in promising acquisitions",
+        "Tracks industry activity and identifies talent opportunities future needs",
       ],
       "examples": [
-        "Invented CSS in JS",
-        "Defined and drove migration strategy to Lite",
-        "Implemented unidirectional data flow to completion",
+        "Maintained contact with top performing candidates who have the potential to fill future roles at Dialogue",
+        "Organized efforts and strategies to maintain and attract the best talent in all of Dialogue’s functions",
       ],
     }],
   },
