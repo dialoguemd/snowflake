@@ -1,7 +1,7 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'ONBOARDING-OFFBOARDING' | 'RECRUITMENT-SELECTION' | 'FOUNDATIONS' | 'SERVERS' |
+export type TrackId = 'ONBOARDING-OFFBOARDING' | 'RECRUITMENT-SELECTION' | 'EMPLOYEE-MANAGEMENT ALIGNMENT' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
@@ -10,7 +10,7 @@ export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 export type MilestoneMap = {
   'ONBOARDING-OFFBOARDING': Milestone,
   'RECRUITMENT-SELECTION': Milestone,
-  'FOUNDATIONS': Milestone,
+  'EMPLOYEE-MANAGEMENT ALIGNMENT': Milestone,
   'SERVERS': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
   'COMMUNICATION': Milestone,
@@ -73,7 +73,7 @@ export type Track = {
 type Tracks = {|
   'ONBOARDING-OFFBOARDING': Track,
   'RECRUITMENT-SELECTION': Track,
-  'FOUNDATIONS': Track,
+  'EMPLOYEE-MANAGEMENT ALIGNMENT': Track,
   'SERVERS': Track,
   'PROJECT_MANAGEMENT': Track,
   'COMMUNICATION': Track,
@@ -211,69 +211,67 @@ export const tracks: Tracks = {
     }],
   },
 
-  "FOUNDATIONS": {
-    "displayName": "Foundations",
+  "EMPLOYEE-MANAGEMENT ALIGNMENT": {
+    "displayName": "EMPLOYEE-MANAGEMENT ALIGNMENT",
     "category": "A",
-    "description": "Develops expertise in foundational systems, such as deployments, pipelines, databases and machine learning",
+    "description": "provides full cycle Human Resources support to all functions of the company, critical in executing people initiatives, providing great internal customer support, and driving HR functional excellence and process improvement.",
     "milestones": [{
-      "summary": "Works effectively within established structures, following current best practices",
+      "summary": "Ability to successfully monitor the "pulse" of the employees to ensure a high level of employee engagement",
       "signals": [
-        "Writes thorough postmortems for service outages",
-        "Makes simple configuration changes to services",
-        "Performs backfills safely and effectively, without causing pages",
+        "Excellent organizational and interpersonal skills",
+        "Flexibility, fantastic communication skills and huge amounts of drive",
+        "The ability to manage multiple priorities simultaneously - orientated on results",
       ],
       "examples": [
-        "Made safe and effective Ansible changes",
-        "Implemented new ETL pipelines based on existing ones",
-        "Resolved out of disk errors independently",
+        "Contributed to the formalization of succession plans for key positions",
+        "Ensured that all key employees have a formalized personal development plan in their annual objectives",
       ],
     }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
+      "summary": "Successfully creates and drives effective development, employee relations, retention and reward programs",
       "signals": [
-        "Made minor version upgrades to technologies",
-        "Builds machine learning jobs within the ML framework",
-        "Triages service issues correctly and independently",
+        "Strong internal and external customer service focus",
+        "Must be able to interface at all levels of the organization",
+        "A strong solutions focused mindset",
       ],
       "examples": [
-        "Upgraded NodeJS from 8.0 to 8.1.1",
-        "Built custom packages for RPMs",
-        "Improved ETL efficiency by improving Dynamo to S3 loading",
+        "Worked with the business to ensure that each key employees have a formalized personal development plan in their annual objectives",
+        "Advised employees on their training needs and offer: external training, organization of internal training with managers, contribute to employees skill development and employability.",
       ],
     }, {
-      "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
+      "summary": "Understand business goals and recommends new approaches, policies and procedures to effect continual improvements in business objectives, productivity and development of HR within the company",
       "signals": [
-        "Acts as primary maintainer for existing critical systems",
-        "Designs moderately complex systems",
-        "Makes major version upgrades to libraries",
+        "Comfortable working in an environment which demands strong deliverables ",
+        "Ability to identify problems and drive appropriate solutions",
+        "Leader in decision making processes",
       ],
       "examples": [
-        "Designed Ansible configuration management",
-        "Built Medium's realtime stats pipeline",
-        "Designed flexible framework for writing machine learning jobs",
+        "Developed and delivered an effective performance review process",
+        "Established thorough training programs catered to each department for new hires",
+        "Directed and coordinated the interpretation and application of policies, procedures and programs within the human resources function",
       ],
     }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
+      "summary": "Provides coaching and guidance to business leaders on their interpretation and execution of HR policies and programs",
       "signals": [
-        "Designs complex projects that encompass multiple systems and technologies",
-        "Demonstrates deep knowledge of foundational systems",
-        "Introduces new databases and technologies to meet underserved needs",
+        "Bias for action, strong work ethic, and desire to achieve excellence",
+        "Identified leadership training opportunities for senior leadership",
+        "Acts as a role model, guides and advises the HR Coordinators and other HR Business Partners.",
       ],
       "examples": [
-        "Designed and built BBFD",
-        "Designed AWS configuration management",
-        "Introduced Kinesis and pioneered streaming events pipeline",
+        "Advised managers in developing business plans for development and recruitment.",
+        "Took charge of case management of sensitive complex issues ",
+        "Demonstrated success in supporting senior Leaders with complicated Human Resources issues",
       ],
     }, {
-      "summary": "Is an industry-leading expert in foundational engineering or sets strategic foundational direction for an eng team",
+      "summary": "IDesigns strategies with internal stakeholders soliciting support and information from HR team members to achieve resolutions which meets the objectives and goals of the business and HR.",
       "signals": [
-        "Designs transformational projects in service of long-term goals",
-        "Defines the strategic vision for foundational work and supporting technologies",
-        "Invents industry-leading techniques to solve complex problems",
+        "Superior conflict resolution skills",
+        "Defines the strategic vision for HR solutiond and process improvements",
+        "Establishes industry-leading techniques to solve complex problems",
       ],
       "examples": [
-        "Invented a novel ML technique that advanced the state of the art",
-        "Defined and developed Medium's continuous delivery strategy",
-        "Developed and implemented HA strategy",
+        "Built a strategy to attract key talent, as well as retain and develop high potential colleagues, ensuring robust IDP’s are in place to support succession planning process.",
+        "Drove the workforce forecasting and planning at the business unit level to capture the requirements of human resources to meet evolving business objectives ",
+        "Delivered corporate training, new hire orientation and develop curriculum for employees and leaders",
       ],
     }],
   },
