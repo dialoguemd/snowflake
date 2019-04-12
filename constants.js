@@ -1,15 +1,15 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'Onboarding & Offboarding' | 'Recruitment & Selection' | 'FOUNDATIONS' | 'SERVERS' |
+export type TrackId = 'ONBOARDING-OFFBOARDING' | 'RECRUITMENT-SELECTION' | 'FOUNDATIONS' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'Onboarding & Offboarding': Milestone,
-  'Recruitment & Selection': Milestone,
+  'ONBOARDING-OFFBOARDING': Milestone,
+  'RECRUITMENT-SELECTION': Milestone,
   'FOUNDATIONS': Milestone,
   'SERVERS': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
@@ -71,8 +71,8 @@ export type Track = {
 }
 
 type Tracks = {|
-  'Onboarding & Offboarding': Track,
-  'Recruitment & Selection': Track,
+  'ONBOARDING-OFFBOARDING': Track,
+  'RECRUITMENT-SELECTION': Track,
   'FOUNDATIONS': Track,
   'SERVERS': Track,
   'PROJECT_MANAGEMENT': Track,
@@ -90,7 +90,7 @@ type Tracks = {|
 |}
 
 export const tracks: Tracks = {
-  "Onboarding & Offboarding": {
+  "ONBOARDING-OFFBOARDING": {
     "displayName": "Onboarding & Offboarding",
     "category": "A",
     "description": "the process of integrating new employees into the organization and its culture and then, separating them on their last day of employment",
@@ -147,7 +147,7 @@ export const tracks: Tracks = {
     }],
   },
 
-  "Recruitment & Selection": {
+  "RECRUITMENT-SELECTION": {
     "displayName": "Recruitment & Selection",
     "category": "A",
     "description": "Attracts, shortlists, selects and hires suitable candidates for jobs (either permanent or temporary) within Dialogue.",
