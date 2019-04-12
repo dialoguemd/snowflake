@@ -1,7 +1,7 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'TRAINING-DEVELOPMENT' | 'RECRUITMENT-SELECTION' | 'EMPLOYEE-MANAGEMENT ALIGNMENT' | 'SERVERS' |
+export type TrackId = 'TRAINING-DEVELOPMENT' | 'RECRUITMENT-SELECTION' | 'EMPLOYEE-MANAGEMENT-ALIGNMENT' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
@@ -10,7 +10,7 @@ export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 export type MilestoneMap = {
   'TRAINING-DEVELOPMENT': Milestone,
   'RECRUITMENT-SELECTION': Milestone,
-  'EMPLOYEE-MANAGEMENT ALIGNMENT': Milestone,
+  'EMPLOYEE-MANAGEMENT-ALIGNMENT': Milestone,
   'SERVERS': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
   'COMMUNICATION': Milestone,
@@ -73,7 +73,7 @@ export type Track = {
 type Tracks = {|
   'TRAINING-DEVELOPMENTG': Track,
   'RECRUITMENT-SELECTION': Track,
-  'EMPLOYEE-MANAGEMENT ALIGNMENT': Track,
+  'EMPLOYEE-MANAGEMENT-ALIGNMENT': Track,
   'SERVERS': Track,
   'PROJECT_MANAGEMENT': Track,
   'COMMUNICATION': Track,
@@ -211,7 +211,7 @@ export const tracks: Tracks = {
     }],
   },
 
-  "EMPLOYEE-MANAGEMENT ALIGNMENT": {
+  "EMPLOYEE-MANAGEMENT-ALIGNMENT": {
     "displayName": "EMPLOYEE-MANAGEMENT ALIGNMENT",
     "category": "A",
     "description": "provides full cycle Human Resources support to all functions of the company, critical in executing people initiatives, providing great internal customer support, and driving HR functional excellence and process improvement.",
