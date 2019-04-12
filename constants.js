@@ -1,7 +1,7 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'TRAINING-DEVELOPMENT' | 'RECRUITMENT-SELECTION' | 'EMPLOYEE-MANAGEMENT-ALIGNMENT' | 'SERVERS' |
+export type TrackId = 'TRAINING-DEVELOPMENT' | 'RECRUITMENT-SELECTION' | 'EMPLOYEE-MANAGEMENT-ALIGNMENT' | 'GUIDANCE-SUPPORT' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
@@ -11,7 +11,7 @@ export type MilestoneMap = {
   'TRAINING-DEVELOPMENT': Milestone,
   'RECRUITMENT-SELECTION': Milestone,
   'EMPLOYEE-MANAGEMENT-ALIGNMENT': Milestone,
-  'SERVERS': Milestone,
+  'GUIDANCE-SUPPORT': Milestone,
   'PROJECT_MANAGEMENT': Milestone,
   'COMMUNICATION': Milestone,
   'CRAFT': Milestone,
@@ -74,7 +74,7 @@ type Tracks = {|
   'TRAINING-DEVELOPMENTG': Track,
   'RECRUITMENT-SELECTION': Track,
   'EMPLOYEE-MANAGEMENT-ALIGNMENT': Track,
-  'SERVERS': Track,
+  'GUIDANCE-SUPPORT': Track,
   'PROJECT_MANAGEMENT': Track,
   'COMMUNICATION': Track,
   'CRAFT': Track,
@@ -276,69 +276,65 @@ export const tracks: Tracks = {
     }],
   },
 
-  "SERVERS": {
-    "displayName": "Servers",
+  "GUIDANCE-SUPPORT": {
+    "displayName": "GUIDANCE-SUPPORT",
     "category": "A",
-    "description": "Develops expertise in server side engineering, using technologies such as Go, NodeJS, or Scala",
+    "description": "Strives for company excellence, maximises employees’ potential and effectively resolves performance issues with compassion and care throughout various functions ",
     "milestones": [{
-      "summary": "Works effectively within established server side frameworks, following current best practices",
+      "summary": "Provides support and guidance for employees while recommending solutions to problems",
       "signals": [
-        "Adds NodeJS endpoints using layers architecture",
-        "Adds golang endpoints using Gotham architecture",
-        "Makes minor server changes to support client needs",
+        "Recognizes when support is needed",
+        "Helps to break down problems into feasible, tangible next steps",
+        "Problem solver and active listener ",
       ],
       "examples": [
-        "Added IFTTT trigger for new bookmark to medium2",
-        "Added delete audio route to Buggle",
-        "Queried a Dynamo LSI appropriately",
+        "Scheduled time to meet with employees and helped them resolve conflicts among their teams",
+        "Provided positive feedback for good work and recognizes employees’ achievements",
       ],
     }, {
-      "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
+      "summary": "Capable of skillfully resolving performance issues among employees while offering insightful action plans for them  to follow",
       "signals": [
-        "Assesses correctness and utility of existing code and avoids blind copy-pasting",
-        "Generalizes code when appropriate",
-        "Determines data needs from product requirements",
+        "Honest with employees",
+        "Encourages participation in conflict resolution discussions",
+        "Helps employees take action and ownership of their concerns",
       ],
       "examples": [
-        "Identified need for new index on Dynamo",
-        "Acted as caretaker for routes protos",
-        "Updated Facebook API version and codebase dependencies",
+        "Led discussions with employees and provided honest, yet constructive feedback about performance ",
+        "Guided an employee to help solve their problem directly, on their own ",
       ],
     }, {
-      "summary": "Designs standalone systems of moderate complexity, or major new features in existing systems",
+      "summary": "Provides employee assistance with major performance issues",
       "signals": [
-        "Acts as primary maintainer for existing critical systems",
-        "Integrates third party services effectively",
-        "Writes playbooks for new service maintenance",
+        "Strong desire to help employees perform and succeed at their highest potential",
+        "Identifies characteristics related to poor performance and establishes a resolution plan",
+        "Strong problem solving skills and communication skills",
       ],
       "examples": [
-        "Implemented Google Auth login to Medium",
-        "Implemented payments integration with Stripe",
-        "Built Textshots server",
+        "Developed performance plans tailored for a specific employee’s needs",
+        "Organized weekly meetings to evaluate improvements in order to avoid PIPs",
       ],
     }, {
-      "summary": "Builds complex, reusable architectures that pioneer best practices for other engineers, or multi-system services",
+      "summary": "Deals with conflict resolution and provides mediation as appropriate",
       "signals": [
-        "Delivers complex systems that achieve their goals",
-        "Avoids subtle architectural mistakes when considering new systems",
-        "Makes appropriate buy vs build choices",
+        "Ability to intervene and help resolve toxic conflicts",
+        "Enforces open communication, transparency and openness to ideas/solutions",
+        "Ability to empower teams to move forward in the right direction",
       ],
       "examples": [
-        "Designed Medium's ranked feed architecture",
-        "Designed custom domains architecture",
-        "Created Gotham framework for creating Go services",
+        "Mediated disagreements between employees and employers",
+        "Mediated disagreements between employees and other employees",
       ],
     }, {
-      "summary": "Is an industry-leading expert in server side engineering or sets strategic server side direction for an eng team",
+      "summary": "Develops solutions and help to resolve higher-end and complex, organizational issues at the senior level of the company",
       "signals": [
-        "Designs transformational projects of significant complexity and scope",
-        "Makes decisions that have positive, long term, wide ranging consequences",
-        "Identifies and solves systemic problems with current architecture",
+        "Ability to manage chaotic situations in a peaceful yet constructive manner",
+        "Strong negotiation skills, active listener, problem solver, able to manage dsiputes",
+        "Ability to build harmony and come to an agreement between both parties",
       ],
       "examples": [
-        "Researched, vetted, and selected Go as Medium's statically typed language",
-        "Defined microservices architecture and medium2 migration plan",
-        "Defined and implemented proprietary IP core to the company's success",
+        "360 degree performance turn-around of the performance of a problematic team",
+        "Abolished any serious tensions between various teams",
+        "Rebuilt trust between senior EMT members",
       ],
     }],
   },
