@@ -1,14 +1,14 @@
 // @flow
 import * as d3 from 'd3'
 
-export type TrackId = 'ONBOARDING-OFFBOARDING' | 'RECRUITMENT-SELECTION' | 'EMPLOYEE-MANAGEMENT ALIGNMENT' | 'SERVERS' |
+export type TrackId = 'TRAINING-DEVELOPMENT' | 'RECRUITMENT-SELECTION' | 'EMPLOYEE-MANAGEMENT ALIGNMENT' | 'SERVERS' |
   'PROJECT_MANAGEMENT' | 'COMMUNICATION' | 'CRAFT' | 'INITIATIVE' |
   'CAREER_DEVELOPMENT' | 'ORG_DESIGN' | 'WELLBEING' | 'ACCOMPLISHMENT' |
   'MENTORSHIP' | 'EVANGELISM' | 'RECRUITING' | 'COMMUNITY'
 export type Milestone = 0 | 1 | 2 | 3 | 4 | 5
 
 export type MilestoneMap = {
-  'ONBOARDING-OFFBOARDING': Milestone,
+  'TRAINING-DEVELOPMENT': Milestone,
   'RECRUITMENT-SELECTION': Milestone,
   'EMPLOYEE-MANAGEMENT ALIGNMENT': Milestone,
   'SERVERS': Milestone,
@@ -71,7 +71,7 @@ export type Track = {
 }
 
 type Tracks = {|
-  'ONBOARDING-OFFBOARDING': Track,
+  'TRAINING-DEVELOPMENTG': Track,
   'RECRUITMENT-SELECTION': Track,
   'EMPLOYEE-MANAGEMENT ALIGNMENT': Track,
   'SERVERS': Track,
@@ -90,7 +90,7 @@ type Tracks = {|
 |}
 
 export const tracks: Tracks = {
-  "ONBOARDING-OFFBOARDING": {
+  "TRAINING-DEVELOPMENT": {
     "displayName": "Onboarding & Offboarding",
     "category": "A",
     "description": "the process of integrating new employees into the organization and its culture and then, separating them on their last day of employment",
