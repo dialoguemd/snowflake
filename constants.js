@@ -1178,14 +1178,14 @@ export const categoryColorScale = d3.scaleOrdinal()
   .range(['#00abc2', '#428af6', '#e1439f', '#e54552'])
 
 export const titles = [
-  {label: 'HR intern', minPoints: 0, maxPoints: 16},
-  {label: 'HR & Talent Coordinator', minPoints: 17, maxPoints: 35},
-  {label: 'HR Generalist', minPoints: 36, maxPoints: 57},
-  {label: 'HR & Talent Specialist', minPoints: 36, maxPoints: 57},
-  {label: 'HR Business Partner', minPoints: 58, maxPoints: 89},
-  {label: 'HR & Talent Supervisor', minPoints: 58, maxPoints: 89},
-  {label: 'Senior HR & Talent Manager', minPoints: 90},
-  {label: 'Director HR & Talent', minPoints: 90}
+  {label: 'Junior HR-Talent Coordinator', minPoints: 0, maxPoints: 16},
+  {label: 'Senior HR-Talent Coordinator', minPoints: 17, maxPoints: 35},
+  {label: 'Junior HR Generalist', minPoints: 36, maxPoints: 57},
+  {label: 'Senior HR Generalist', minPoints: 36, maxPoints: 57},
+  {label: 'Junior HR Business Partner', minPoints: 58, maxPoints: 89},
+  {label: 'Senior HR Business Partner', minPoints: 58, maxPoints: 89},
+  {label: 'HR-Talent Manager', minPoints: 90},
+  {label: 'Director HR-Talent', minPoints: 90}
 ]
 
 export const eligibleTitles = (milestoneMap: MilestoneMap): string[] => {
