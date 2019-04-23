@@ -71,7 +71,7 @@ export type Track = {
 }
 
 type Tracks = {|
-  'TRAINING-DEVELOPMENTG': Track,
+  'TRAINING-DEVELOPMENT': Track,
   'RECRUITMENT-SELECTION': Track,
   'EMPLOYEE-MANAGEMENT-ALIGNMENT': Track,
   'GUIDANCE-SUPPORT': Track,
@@ -93,56 +93,66 @@ export const tracks: Tracks = {
   "TRAINING-DEVELOPMENT": {
     "displayName": "Onboarding & Offboarding",
     "category": "A",
-    "description": "the process of integrating new employees into the organization and its culture and then, separating them on their last day of employment",
+    "description": "The process of integrating new employees into the organization and its culture and then, separating them on their last day of employment",
     "milestones": [{
       "summary": "HR Onboarding & Offboarding best practices and procedures are understood correctly",
       "signals": [
         "Detail-oriented",
         "Desire to want to learn new things",
-        "Curious and open-minded",
+        "Curious and open-minded"
       ],
       "examples": [
-        "Creates presentation slides that outline the company’s values, culture, benefits, and policies without any errors",
-      ],
+        "Creates presentation slides that outline the company's values, culture, benefits, and policies without any errors",
+        "2nd",
+        "3rd",
+      ]
     }, {
       "summary": "HR Onboarding & Offboarding best practices and procedures are executives without errors",
       "signals": [
         "Strong communication link between employees and HR",
-        "Approachable and caring of the employees’ needs and concerns",
-        "Always willing to help and guide people in the right direction",
+        "Approachable and caring of the employees' needs and concerns",
+        "Always willing to help and guide people in the right direction"
       ],
       "examples": [
         "Making sure proper onboarding and offboarding processes are in place.",
-        "Is capable of presenting the company’s values, culture, benefits, and policies to new employees without any mistakes and is able to answer any questions that may arise",
-        "Ensure a seamless employee experience (Setup of workstation & materials, access to all HR systems",
+        "Is capable of presenting the company's values, culture, benefits, and policies to new employees without any mistakes and is able to answer any questions that may arise",
+        "Ensure a seamless employee experience (Setup of workstation & materials, access to all HR systems)"
       ],
     }, {
       "summary": "Execution of HR practices & specific projects while having employee and team satisfaction in mind",
       "signals": [
-        "Is the “Go to person” for general HR related questions for employees",
+        "Is the Go to person for general HR related questions for employees",
+        "2nd",
+        "3rd",
       ],
       "examples": [
-        "Acting as support for the HR team in day to day practices; ",
-        "helps to create diverse HR documentation/slides",
-        "Updating employees on changes and policies & maintaining documentation ",
+        "Acting as support for the HR team in day to day practices",
+        "Helps to create diverse HR documentation/slides",
+        "Updating employees on changes and policies & maintaining documentation"
       ],
     }, {
       "summary": "Develops new HR onboarding/offboarding practices, or minor improvements to existing ones",
       "signals": [
         "Curious & Open-minded: researches new, competitive initiatives and ideas to enhance employee experience ",
+        "2nd",
+        "3rd",
       ],
       "examples": [
         "Implements new tools and tasks to maximize efficiency and effectiveness on the onboarding/offboarding processes",
-        "Informs the HR team about recent best practices updates and what new initiatives will be put in place"
+        "Informs the HR team about recent best practices updates and what new initiatives will be put in place",
+        "3rd",
       ],
     }, {
       "summary": "Is a leading expert in the onboarding & offboarding experience and sets strategic HR directions for the team",
       "signals": [
         "Defines long-term goals and ensures active participation of employees are put in place",
+        "2nd",
+        "3rd"
       ],
       "examples": [
         "Designs and develops innovative, HR processes that are competitive and reflect the company's values & culture",
         "Invents new techniques to enhance employee experience, while implementing best practices",
+        "3rd",
       ],
     }],
   },
@@ -190,12 +200,14 @@ export const tracks: Tracks = {
     }, {
       "summary": "Responsible for full cycle recruitment, selection process and applicant tracking in accordance with company procedures.",
       "signals": [
-        "Ability to align the right candidates with the company’s values, mission, and culture",
+        "Ability to align the right candidates with the company's values, mission, and culture",
         "Ability to leads hiring decisions and resolves conflicting reports",
+        "3rd",
       ],
       "examples": [
-        "Effectively established Dialogue’s interview processes and the training required for each phase",
-        "Organized and led Dialogue’s presentation at recruitment fairs and events",
+        "Effectively established Dialogue's interview processes and the training required for each phase",
+        "Organized and led Dialogue's presentation at recruitment fairs and events",
+        "3rd",
       ],
     }, {
       "summary": "Establishes all recruitment strategies, invests in long-term relationships for critical roles, and drives the recruitment function",
@@ -206,17 +218,18 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Maintained contact with top performing candidates who have the potential to fill future roles at Dialogue",
-        "Organized efforts and strategies to maintain and attract the best talent in all of Dialogue’s functions",
+        "Organized efforts and strategies to maintain and attract the best talent in all of Dialogue's functions",
+        "3rd",
       ],
     }],
   },
 
   "EMPLOYEE-MANAGEMENT-ALIGNMENT": {
-    "displayName": "EMPLOYEE-MANAGEMENT ALIGNMENT",
+    "displayName": "Employee-Management Alignement",
     "category": "A",
     "description": "provides full cycle Human Resources support to all functions of the company, critical in executing people initiatives, providing great internal customer support, and driving HR functional excellence and process improvement.",
     "milestones": [{
-      "summary": "Ability to successfully monitor the "pulse" of the employees to ensure a high level of employee engagement",
+      "summary": "Ability to successfully monitor the 'pulse' of the employees to ensure a high level of employee engagement",
       "signals": [
         "Excellent organizational and interpersonal skills",
         "Flexibility, fantastic communication skills and huge amounts of drive",
@@ -225,6 +238,7 @@ export const tracks: Tracks = {
       "examples": [
         "Contributed to the formalization of succession plans for key positions",
         "Ensured that all key employees have a formalized personal development plan in their annual objectives",
+        "3rd",
       ],
     }, {
       "summary": "Successfully creates and drives effective development, employee relations, retention and reward programs",
@@ -236,6 +250,7 @@ export const tracks: Tracks = {
       "examples": [
         "Worked with the business to ensure that each key employees have a formalized personal development plan in their annual objectives",
         "Advised employees on their training needs and offer: external training, organization of internal training with managers, contribute to employees skill development and employability.",
+        "3rd",
       ],
     }, {
       "summary": "Understand business goals and recommends new approaches, policies and procedures to effect continual improvements in business objectives, productivity and development of HR within the company",
@@ -269,7 +284,7 @@ export const tracks: Tracks = {
         "Establishes industry-leading techniques to solve complex problems",
       ],
       "examples": [
-        "Built a strategy to attract key talent, as well as retain and develop high potential colleagues, ensuring robust IDP’s are in place to support succession planning process.",
+        "Built a strategy to attract key talent, as well as retain and develop high potential colleagues, ensuring robust IDP's are in place to support succession planning process.",
         "Drove the workforce forecasting and planning at the business unit level to capture the requirements of human resources to meet evolving business objectives ",
         "Delivered corporate training, new hire orientation and develop curriculum for employees and leaders",
       ],
@@ -277,9 +292,9 @@ export const tracks: Tracks = {
   },
 
   "GUIDANCE-SUPPORT": {
-    "displayName": "GUIDANCE-SUPPORT",
+    "displayName": "Guidance & Support",
     "category": "A",
-    "description": "Strives for company excellence, maximises employees’ potential and effectively resolves performance issues with compassion and care throughout various functions ",
+    "description": "Strives for company excellence, maximises employees' potential and effectively resolves performance issues with compassion and care throughout various functions ",
     "milestones": [{
       "summary": "Provides support and guidance for employees while recommending solutions to problems",
       "signals": [
@@ -289,7 +304,8 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Scheduled time to meet with employees and helped them resolve conflicts among their teams",
-        "Provided positive feedback for good work and recognizes employees’ achievements",
+        "Provided positive feedback for good work and recognizes employees' achievements",
+        "3rd",
       ],
     }, {
       "summary": "Capable of skillfully resolving performance issues among employees while offering insightful action plans for them  to follow",
@@ -301,6 +317,7 @@ export const tracks: Tracks = {
       "examples": [
         "Led discussions with employees and provided honest, yet constructive feedback about performance ",
         "Guided an employee to help solve their problem directly, on their own ",
+        "3rd",
       ],
     }, {
       "summary": "Provides employee assistance with major performance issues",
@@ -310,8 +327,9 @@ export const tracks: Tracks = {
         "Strong problem solving skills and communication skills",
       ],
       "examples": [
-        "Developed performance plans tailored for a specific employee’s needs",
+        "Developed performance plans tailored for a specific employee's needs",
         "Organized weekly meetings to evaluate improvements in order to avoid PIPs",
+        "3rd",
       ],
     }, {
       "summary": "Deals with conflict resolution and provides mediation as appropriate",
@@ -323,6 +341,7 @@ export const tracks: Tracks = {
       "examples": [
         "Mediated disagreements between employees and employers",
         "Mediated disagreements between employees and other employees",
+        "3rd",
       ],
     }, {
       "summary": "Develops solutions and help to resolve higher-end and complex, organizational issues at the senior level of the company",
