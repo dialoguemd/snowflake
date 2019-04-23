@@ -31,6 +31,14 @@ Install dependencies:
 
 This will put a static version of the site in `out/`.
 
+### Deploying
+
+`yarn deploy`
+
+This will deploy a static version of the site in `out/` using zeit.io 
+
+
+
 ## Future work
 
 * Load initial data from a file, to improve flexibility.

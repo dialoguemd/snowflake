@@ -12,7 +12,8 @@
   },
   "scripts": {
     "dev": "next",
-    "export": "next build && next export",
+    "export": "next build && next export && cp now.json out",
+    "deploy": "cd out && now --target production",
     "flow": "flow"
   },
   "devDependencies": {

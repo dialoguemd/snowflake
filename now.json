@@ -1,3 +1,5 @@
 {
-    "name":"snowflake"
+    "name":"eng-snowflake",
+    "version": 2,
+    "alias": ["eng-snowflake.dialogue.co.at"]
 }
