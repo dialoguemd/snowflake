@@ -93,7 +93,7 @@ export const tracks: Tracks = {
   "MOBILE": {
     "displayName": "Mobile",
     "category": "A",
-    "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
+    "description": "Develops expertise in app engineering on mobile platforms, such as iOS, Android and React Native",
     "milestones": [{
       "summary": "Works effectively within established iOS or Android architectures, following current best practices",
       "signals": [
