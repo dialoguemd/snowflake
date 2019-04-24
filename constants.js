@@ -158,9 +158,9 @@ export const tracks: Tracks = {
   },
 
   "WEB_CLIENT": {
-    "displayName": "Web client",
+    "displayName": "Web Apps",
     "category": "A",
-    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
+    "description": "Develops expertise in Web application engineering using technologies such as React, JavaScript, TypeScript, Ant, CSS, etc.",
     "milestones": [{
       "summary": "Works effectively within established web client architectures, following current best practices",
       "signals": [
