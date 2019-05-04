@@ -93,9 +93,9 @@ export const tracks: Tracks = {
   "MOBILE": {
     "displayName": "Mobile",
     "category": "A",
-    "description": "Develops expertise in native mobile platform engineering, such as iOS or Android",
+    "description": "Develops expertise in app engineering on mobile platforms, such as iOS, Android and React Native",
     "milestones": [{
-      "summary": "Works effectively within established iOS or Android architectures, following current best practices",
+      "summary": "Works effectively within established iOS, Android or React Native architectures, following current best practices",
       "signals": [
         "Delivers features requiring simple local modifications",
         "Adds simple actions that call server endpoints",
@@ -103,18 +103,18 @@ export const tracks: Tracks = {
       ],
       "examples": [
         "Added existing button to a different iOS surface",
-        "Add follow button for publications on Android",
+        "Add SDWebImage to iOS client app to handle image downloads and caching",
         "Fetched and displayed a new stream, using existing stream item styles",
       ],
     }, {
       "summary": "Develops new instances of existing architecture, or minor improvements to existing architecture",
       "signals": [
-        "Defines new useful and appropriate proto-generated objects",
-        "Creates simple new activities on Android",
+        "Solid understanding of basic architecture (MVC) and awareness of its issues",
+        "Creates simple new UI components",
         "Migrates code from old patterns to new patterns",
       ],
       "examples": [
-        "Upgraded SDWebImage to a new major version",
+        "Upgraded a highly used dependency to a new major version",
         "Added support for rendering a new type of stream item",
         "Prototyped a simple new feature quickly",
       ],
@@ -122,8 +122,8 @@ export const tracks: Tracks = {
       "summary": "Designs major new features and demonstrates a nuanced understanding of mobile platform constraints",
       "signals": [
         "Implements complex features with a large product surface area",
-        "Works effectively with  Android reactive programming framework",
-        "Adds support for new iOS features after a major iOS version upgrade",
+        "Works effectively with  Android or iOS reactive programming framework",
+        "Adds support for new platform features after a major platform version upgrade",
       ],
       "examples": [
         "Designed iOS caching strategy for offline reading",
@@ -135,32 +135,36 @@ export const tracks: Tracks = {
       "signals": [
         "Pioneers architecture migration strategies that reduce programmer burden",
         "Fixes subtle memory management issues",
-        "Implements interactive dismissals that bring delight",
+        "Implements animations that bring delight",
+        "Capable of representing the company on tech events to share knowledge",
       ],
       "examples": [
-        "Upgraded CocoaPods to a new major version",
+        "Implement a custom complex animation while transitioning screens with a good performance",
         "Designed architecture for fetching and rendering stream items",
-        "Migrated Android persistance layer to reactive programming",
+        "Migrated Android/iOS persistance layer to reactive programming",
+        "Talked about RxKotlin on an Android/Mobile meetup",
       ],
     }, {
       "summary": "Is an industry-leading expert in mobile engineering or sets strategic mobile direction for an eng team",
       "signals": [
         "Defines long-term goals and ensures active projects are in service of them",
         "Designs and builds innovative, industry-leading UI interactions",
-        "Invents new techniques to responsibly stretch limits of the Android platform",
+        "Invents new techniques to responsibly stretch limits of the platform",
+        "Shows high interest in sharing knowledge to the community on behalf of the company",
       ],
       "examples": [
         "Defined and drove complete migration plan to Swift or Kotlin",
         "Implemented Android recycler views before platform support existed",
         "Pioneered and open-sourced application-level abstractions for multi-app environment",
+        "Actively represents the company on tech events",
       ],
     }],
   },
 
   "WEB_CLIENT": {
-    "displayName": "Web client",
+    "displayName": "Web Apps",
     "category": "A",
-    "description": "Develops expertise in web client technologies, such as HTML, CSS, and JavaScript",
+    "description": "Develops expertise in Web application engineering using technologies such as React, JavaScript, TypeScript, Ant, CSS, etc.",
     "milestones": [{
       "summary": "Works effectively within established web client architectures, following current best practices",
       "signals": [
